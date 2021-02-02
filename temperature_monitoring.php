@@ -15,9 +15,9 @@ session_start();
 //Global variables
 $device_id = array('70:ee:50:3f:13:36', '70:ee:50:14:53:38');
 $module_id = array('02:00:00:3f:0a:54', '02:00:00:14:43:f6');
-$client_id    = '600c8285f75e5f1440564e69';
-$client_secret= 'yWL6w0qaoig4KY3TWjKKF1aRUyEgQpUxT';
-$redirect_uri = 'http://localhost/netatmo/index.php';
+$client_id    = '';
+$client_secret= '';
+$redirect_uri = '';
 $data_temperature = array();	
 $date         = new DateTime();
 $date_end     = $date->getTimestamp();
